@@ -17,6 +17,7 @@
 
 \documentclass{beamer}
 
+
 \mode<presentation> {
 
 % The Beamer class comes with a number of default slide themes
@@ -82,6 +83,7 @@
 
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{epstopdf}
 
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
@@ -97,6 +99,8 @@ Swedish Institute of Computer Science \\ \textit{SICS Swedish ICT}\\ % Your inst
 \textit{ahmad@sics.se, qiq@sics.se} % Your email address
 }
 \date{4 December, 2014} % Date, can be changed to a custom date
+
+\logo{\includegraphics[scale=0.1]{figs/sics.eps}}
 
 \begin{document}
 
@@ -193,13 +197,62 @@ bandwidth consumption for mobile network operators
 \subsection{Firewall and NAT Traversal (1/2)}
 \begin{frame}
 \frametitle{Firewall and NAT Traversal (1/2)}
-
+	\begin{enumerate}
+		\item STUN: Session Traversal Utilities for NAT
+		\item TURN: Traversal Using Relays around NAT
+		\item ICE: Interactive Connectivity Establishment
+	\end{enumerate}
 \end{frame}
 
 \subsection{Firewall and NAT Traversal (2/2)}
 \begin{frame}
 	\frametitle{Firewall and NAT Traversal (2/2)}
-	
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[scale=0.55]{figs/nat.pdf}
+		\end{figure}
+\end{frame}
+%------------------------------------------------
+\section{Multiparty Communication}
+%------------------------------------------------
+\subsection{Mesh Network}
+\begin{frame}
+\frametitle{Mesh Network}
+Simple but inefficient.
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[scale=0.6]{figs/mesh.pdf}
+		\end{figure}
+\end{frame}
+%------------------------------------------------
+\subsection{Star Network}
+\begin{frame}
+	\frametitle{Star Network}
+	Too much traffic on single peer.
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[scale=0.6]{figs/star.pdf}
+	\end{figure}
+\end{frame}
+%------------------------------------------------
+\subsection{Mixer Solution}
+\begin{frame}
+	\frametitle{Mixer Solution}
+	Multipoint Control Unit (MCU) - a central point transcodes to maintain a single one-to-one stream with each peer
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[scale=0.6]{figs/mcu.pdf}
+	\end{figure}
+\end{frame}
+%------------------------------------------------
+\subsection{Router Solution}
+\begin{frame}
+	\frametitle{Router Solution}
+	 Relay approach - a central point inspect and forward stream 
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[scale=0.6]{figs/router.pdf}
+	\end{figure}
 \end{frame}
 %------------------------------------------------
 \section{Demo}

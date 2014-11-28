@@ -9,5 +9,10 @@
 \beamer@sectionintoc {3}{Firewall and NAT Traversal}{7}{0}{3}
 \beamer@subsectionintoc {3}{1}{Firewall and NAT Traversal (1/2)}{7}{0}{3}
 \beamer@subsectionintoc {3}{2}{Firewall and NAT Traversal (2/2)}{8}{0}{3}
-\beamer@sectionintoc {4}{Demo}{9}{0}{4}
-\beamer@subsectionintoc {4}{1}{Demo}{9}{0}{4}
+\beamer@sectionintoc {4}{Multiparty Communication}{9}{0}{4}
+\beamer@subsectionintoc {4}{1}{Mesh Network}{9}{0}{4}
+\beamer@subsectionintoc {4}{2}{Star Network}{10}{0}{4}
+\beamer@subsectionintoc {4}{3}{Mixer Solution}{11}{0}{4}
+\beamer@subsectionintoc {4}{4}{Router Solution}{12}{0}{4}
+\beamer@sectionintoc {5}{Demo}{13}{0}{5}
+\beamer@subsectionintoc {5}{1}{Demo}{13}{0}{5}
