@@ -73,6 +73,8 @@
 %\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
 \setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
 
+\setbeamercolor*{item}{fg=red!60!black}
+
 \useinnertheme{rectangles}
 
 %\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
@@ -172,10 +174,23 @@ bandwidth consumption for mobile network operators
 %------------------------------------------------
 
 \section{Signaling Service}
-\subsection{Signaling Service}
+\subsection{Signaling Service (1/2)}
 \begin{frame}
-	\frametitle{Signaling Service}
+	\frametitle{Signaling Service (1/2)}
+	\begin{enumerate}
+		\item Initiate a peer-to-peer connection
+		\item Exchange session description
+		\item Not specified by WebRTC
+	\end{enumerate}
+\end{frame}
 
+\subsection{Signaling Service (2/2)}
+\begin{frame}
+	\frametitle{Signaling Service (2/2)}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[scale=0.6]{figs/signal.pdf}
+	\end{figure}
 \end{frame}
 
 

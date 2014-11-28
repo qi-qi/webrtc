@@ -1,8 +1,9 @@
-\beamer@endinputifotherversion {3.24pt}
+\beamer@endinputifotherversion {3.14pt}
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
 \beamer@subsectionintoc {1}{1}{Motivation}{2}{0}{1}
 \beamer@subsectionintoc {1}{2}{Concept}{3}{0}{1}
 \beamer@subsectionintoc {1}{3}{Summary}{4}{0}{1}
 \beamer@sectionintoc {2}{Signaling Service}{5}{0}{2}
-\beamer@subsectionintoc {2}{1}{Signaling Service}{5}{0}{2}
-\beamer@sectionintoc {3}{Second Section}{7}{0}{3}
+\beamer@subsectionintoc {2}{1}{Signaling Service (1/2)}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Signaling Service (2/2)}{6}{0}{2}
+\beamer@sectionintoc {3}{Second Section}{8}{0}{3}
